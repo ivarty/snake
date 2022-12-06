@@ -1,4 +1,4 @@
-#Игра змейка
+# Игра змейка
 _______
 1. Нужно склонировать репозиторий.
 - git clone https://github.com/ivarty/project1.git
