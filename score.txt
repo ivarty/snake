@@ -12,3 +12,7 @@ Ivan: 25 points
 Ivan: 26 points
 Ivan: 17 points
 Ivan: 26 points
+Zhangir: 7 points
+wef: 30 points
+Ivan: 17 points
+Ivan: 26 points

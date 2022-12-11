@@ -31,6 +31,7 @@ def game():
     global name
     global cl
     Key = {'W': True, 'A': True, 'S': True, 'D': True}
+    only_one = True
     game_over = False
     game_close = False
     X, Y = 0, 0
@@ -63,9 +64,10 @@ def game():
                         game_close = False
                     if event.key == pygame.K_c:
                         game()
-                    if event.key == pygame.K_r:
+                    if event.key == pygame.K_r and only_one:
                         resultat = name + ": " + str(score) + " points\n"
                         result.write(resultat)
+                        only_one = False
                 if event.type == pygame.QUIT:
                     exit()
 
